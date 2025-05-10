@@ -1,7 +1,6 @@
 /* General Reset */
 /* Body styling */
 body {
-  font-family: Arial, sans-serif;
   background-color:pink;
  
 }
@@ -33,16 +32,13 @@ nav ul li a:hover {
 }
 
 /* Main content */
-main {
+div {
   background-image:linear-gradient(black,red,yellow);
   border-radius: 8px;
   box-shadow: 0px 0px 20px 10px black;
-
-}
-
-div{
   margin-bottom: 30px;
 }
+
 
 h2 {
   color: #004080;
@@ -51,20 +47,20 @@ h2 {
 }
 /*Aside*/
 aside{
-  background-image:linear-gradient(black,red,yellow);
   border-radius: 8px;
   box-shadow: 0 0 20px 10px black;
   font-color:orange;
+  font-family:cursive;
 }
 /*Article*/
 article{
-  background-image:linear-gradient(black,red,yellow);
   border-radius: 8px ;
   box-shadow: 0 0 20px 10px black;
+  font-color:orange;
+  font-family:cursive;
 }
 /*Footer*/
 footer{
-  background-image:linear-gradient(black,red,yellow);
   border-radius: 8px ;
   box-shadow: 0px 0px 20px 10px black;
   font-color:orange;
@@ -87,7 +83,7 @@ ul {
   header, nav, main, article,aside,footer {
     padding: 20px;
   }
-  /*Paragraph*/
+  /*Paragraph content*/
   p {
     font-family:cursive;
     background-color:aqua;
