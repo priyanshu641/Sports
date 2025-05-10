@@ -48,19 +48,16 @@ h2 {
   margin-bottom: 10px;
   text-align: center;
 }
-/*Aside*/
 aside{
   background-image:linear-gradient(black,red,yellow);
   border-radius: 8px;
   box-shadow: 0 0 20px 10px black;
 }
-/*Article*/
 article{
   background-image:linear-gradient(black,red,yellow);
   border-radius: 8px ;
   box-shadow: 0 0 20px 10px black;
 }
-/*Footer*/
 footer{
   background-image:linear-gradient(black,red,yellow);
   border-radius: 8px ;
@@ -82,7 +79,7 @@ ul {
   header, nav, main, article,aside,footer {
     padding: 20px;
   }
-  /*Paragraph*/
+  /*paragraph*/
   p{
     font-family:cursive;
     background-color:aqua;
