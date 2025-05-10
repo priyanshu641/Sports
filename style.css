@@ -54,6 +54,7 @@ aside{
   background-image:linear-gradient(black,red,yellow);
   border-radius: 8px;
   box-shadow: 0 0 20px 10px black;
+  font-color:orange;
 }
 /*Article*/
 article{
@@ -66,7 +67,7 @@ footer{
   background-image:linear-gradient(black,red,yellow);
   border-radius: 8px ;
   box-shadow: 0px 0px 20px 10px black;
-  text-color:orange;
+  font-color:orange;
   font-family:cursive;
 }
 
@@ -74,6 +75,7 @@ ul {
   margin-left: 20px;
   padding-left: 20px;
   border-radius:8px;
+  background-color:purple;
 }
 
 /* Responsive enhancements */
@@ -86,14 +88,14 @@ ul {
     padding: 20px;
   }
   /*Paragraph*/
-  p id{
+  p {
     font-family:cursive;
     background-color:aqua;
-    text-color:orange;
+    color:orange;
     border-radius:8px;
     margin-button:10px;
 }
-  ul{
+  p ul{
     background-color:purple;
   }
 }
