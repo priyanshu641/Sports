@@ -1,0 +1,90 @@
+/* General Reset */
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color:pink;
+ 
+}
+
+/* Header */
+header {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 0px red;
+}
+
+/* Navigation */
+nav ul {
+  background: #cce5ff;
+  border-radius: 8px;
+}
+
+nav ul li a {
+  color: #004080;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  background-image:linear-gradient(black,red,yellow);
+  border-radius: 8px;
+  box-shadow: 0 0 20px 0 white;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #004080;
+  margin-bottom: 10px;
+  text-align: center;
+}
+aside{
+  background-image:linear-gradient(black,red,yellow);
+  border-radius: 8px;
+  box-shadow: 0 0 20px 0 white;
+}
+article{
+  background-image:linear-gradient(black,red,yellow);
+  border-radius: 8px ;
+  box-shadow: 0 0 20px 0 white;
+}
+footer{
+  background-image:linear-gradient(black,red,yellow);
+  border-radius: 8px ;
+  box-shadow: 0 0 20px 0 white;
+}
+
+ul {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-radius:8px;
+}
+
+/* Responsive enhancements */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  header, nav, main, article,aside,footer {
+    padding: 20px;
+  }
+  p{
+    font-family:cursive;
+    background-color:aqua;
+    color:orange;
+    border-radius:8px;
+    margin-button:10px;
+}
+  ul{
+    background-color:purple;
+  }
+}
