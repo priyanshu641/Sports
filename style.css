@@ -83,10 +83,10 @@ ul {
     padding: 20px;
   }
   /*Paragraph*/
-  p{
+  p {
     font-family:cursive;
     background-color:aqua;
-    color:orange;
+    text-color:orange;
     border-radius:8px;
     margin-button:10px;
 }
