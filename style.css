@@ -9,7 +9,7 @@ body {
 /* Header */
 header {
   background-color: #004080;
-  color: white;
+  font-color: white;
   text-align: center;
   border-radius: 8px;
   box-shadow: 0px 0px 20px 0px red;
@@ -19,6 +19,7 @@ header {
 nav ul {
   background: #cce5ff;
   border-radius: 8px;
+  box-shadow:10px 10px magenta;
 }
 
 nav ul li a {
@@ -34,7 +35,8 @@ nav ul li a:hover {
 main {
   background-image:linear-gradient(black,red,yellow);
   border-radius: 8px;
-  box-shadow: 0 0 20px 0 white;
+  box-shadow: 0px 0px 20px 10px black;
+
 }
 
 section {
@@ -49,17 +51,17 @@ h2 {
 aside{
   background-image:linear-gradient(black,red,yellow);
   border-radius: 8px;
-  box-shadow: 0 0 20px 0 white;
+  box-shadow: 0 0 20px 10px black;
 }
 article{
   background-image:linear-gradient(black,red,yellow);
   border-radius: 8px ;
-  box-shadow: 0 0 20px 0 white;
+  box-shadow: 0 0 20px 10px black;
 }
 footer{
   background-image:linear-gradient(black,red,yellow);
   border-radius: 8px ;
-  box-shadow: 0 0 20px 0 white;
+  box-shadow: 0px 0px 20px 10px black;
 }
 
 ul {
